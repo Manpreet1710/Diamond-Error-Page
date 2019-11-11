@@ -71,3 +71,32 @@ input{
 
 
 
+/*use media queries for responsive design */
+@media (max-width: 568px){
+	.style1 h1{
+		text-align: left;
+		text-shadow: 5px 5px 10px blue;
+	}
+	.style1  p{
+		font-size: 12em;
+	}
+	section input{
+		width: 38%;
+
+	}
+	.icons{
+		text-align: center;
+	}
+	footer{
+		text-align: center;
+	}
+	.style1{
+		height: 40vh;
+	}
+
+	
+}
+
+
+
+
